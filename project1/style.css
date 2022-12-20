@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap'); 
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+   font-family: "Poppins", sans-serif;
+    background-color: lightgray;
+    color: #000000;
+    background-image:url("./jerry-zhang-ePpaQC2c1xA-unsplash\ 1.png") ;
+    background-size: cover;
+}
+.logo a {
+    font-size: 30px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+}
+.navigation-item {
+    list-style: none;
+    margin-right: 30px;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1241px;
+    margin: 44px auto;
+    
+}
+.navigation-list {
+    display: flex;
+}
+.nav__list li .active {
+    border-bottom: 2px solid #000;
+  }
+.navigation-item a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.btn {
+    text-decoration: none;
+    color: white;
+    background-color: #7971EA;
+    padding: 8px 20px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+.box {
+    display: flex;
+    justify-content: center;
+}
+.box > div {
+border-radius: 5px;
+width: 539px;
+}
+
+.box-information {
+    padding: 90px 42px;
+    background-color: rgba(0, 0, 0, 0.35);
+    color: white;
+    margin-right: 56px;
+}
+.box-information h4 {
+    font-size: 30px;
+    font-weight: 500px;
+    margin-bottom: 30px;
+}
+.box-information p {
+    margin-bottom: 20px;
+}
+.form {
+    background-color: #fff;
+    padding: 50px 38px;
+}
+.form h4 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 38px;
+}
+.form button {
+    border: none;
+    font-family: inherit;
+    font-size: 16px;
+    cursor: pointer;
+}
+.form-input input {
+    font-family: inherit;
+    padding: 10px;
+    margin-bottom: 18px;
+    border-radius: 10px;
+    border: 1px solid #777;
+    font-size: 18px;
+    display: inline-block;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
